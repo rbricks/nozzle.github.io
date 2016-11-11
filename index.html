@@ -27,6 +27,10 @@
       body {
         font-family: 'Raleway', sans-serif;
       }
+      #container {
+        margin: 0px auto;
+        max-width: 900px;
+      }
       .projects a {
         text-decoration: none;
         color: inherit;
@@ -41,34 +45,36 @@
     </style>
   </head>
   <body>
-    <center class="title">
-      <div>
-        <img class="rbricks" src="logo/rbricks-logo.png" alt="rbricks" />
+    <div id="container">
+      <center class="title">
+        <div>
+          <img class="rbricks" src="logo/rbricks-logo.png" alt="rbricks" />
+        </div>
+        <div>
+          Composable, small-footprint libraries for scala.
+        </div>
+      </center>
+      <div class="projects">
+        <a href="/rbricks/nozzle">
+          <div class="project">
+            <div class="logo"><img src="logo/nozzle-logo.png" alt="nozzle" /></div>
+            <div class="desc">Principled finch web services with minimal boilerplate.</div>
+          </div>
+        </a>
+        <a href="/rbricks/slog">
+          <div class="project">
+            <div class="logo"><img src="logo/slog-logo.png" alt="slog" /></div>
+            <div class="desc">A minimalistic, scala-oriented backend for slf4j.</div>
+          </div>
+        </a>
+        <a href="/rbricks/itemized">
+          <div class="project">
+            <div class="logo"><img src="logo/itemized-logo.png" alt="itemized" /></div>
+            <div class="desc">A convention and typeclass instances for ADT-based safe enumerations.</div>
+          </div>
+        </a>
       </div>
-      <div>
-        Composable, small-footprint libraries for scala.
-      </div>
-    </center>
-    <div class="projects">
-      <a href="/rbricks/nozzle">
-        <div class="project">
-          <div class="logo"><img src="logo/nozzle-logo.png" alt="nozzle" /></div>
-          <div class="desc">Principled finch web services with minimal boilerplate.</div>
-        </div>
-      </a>
-      <a href="/rbricks/slog">
-        <div class="project">
-          <div class="logo"><img src="logo/slog-logo.png" alt="slog" /></div>
-          <div class="desc">A minimalistic, scala-oriented backend for slf4j.</div>
-        </div>
-      </a>
-      <a href="/rbricks/itemized">
-        <div class="project">
-          <div class="logo"><img src="logo/itemized-logo.png" alt="itemized" /></div>
-          <div class="desc">A convention and typeclass instances for ADT-based safe enumerations.</div>
-        </div>
-      </a>
+      <center>A project by <a href="https://utaal.github.io">Andrea Lattuada</a>.</center>
     </div>
-    <center>A project by <a href="https://utaal.github.io">Andrea Lattuada</a>.</center>
   </body>
 </html>
