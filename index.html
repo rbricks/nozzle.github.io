@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>rbricks</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Raleway');
+      .project {
+        display: flex;
+        margin-bottom: 20px;
+      }
+      .logo, .desc {
+        flex: 1;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      .logo {
+        max-width: 400px;
+        padding-left: 0px;
+        border-right: 1px solid #aaa;
+      }
+      .logo > img {
+        height: 6em;
+      }
+      .desc {
+      }
+      body {
+        font-family: 'Raleway', sans-serif;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      .rbricks {
+        margin-left: -20px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <img class="rbricks" src="logo/rbricks-logo.png" alt="rbricks" />
+    </center>
+    <a href="/rbricks/nozzle">
+      <div class="project">
+        <div class="logo"><img src="logo/nozzle-logo.png" alt="nozzle" /></div>
+        <div class="desc">Principled finch web services with minimal boilerplate.</div>
+      </div>
+    </a>
+    <a href="/rbricks/slog">
+      <div class="project">
+        <div class="logo"><img src="logo/slog-logo.png" alt="slog" /></div>
+        <div class="desc">A minimalistic, scala-oriented backend for slf4j.</div>
+      </div>
+    </a>
+    <a href="/rbricks/itemized">
+      <div class="project">
+        <div class="logo"><img src="logo/itemized-logo.png" alt="itemized" /></div>
+        <div class="desc">A convention and typeclass instances for ADT-based safe enumerations.</div>
+      </div>
+    </a>
+  </body>
+</html>
